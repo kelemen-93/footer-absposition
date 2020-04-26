@@ -1,0 +1,29 @@
+/* === General Styles === */
+
+* {
+  box-sizing: border-box;
+}
+
+/* === Footer Styles === */
+
+.wrapper {
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 50px; /* Equals height of the footer and pushes away the content in the case they would touch. */
+}
+
+.content {
+  background-color: crimson;
+  color: white;
+  height: 200px;
+}
+
+.footer {
+  background-color: skyblue;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 50px;
+}
